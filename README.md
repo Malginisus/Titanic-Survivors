@@ -16,6 +16,7 @@ ___
     c. pandas   
     d. numpy   
     e. pickle   
+    f. flask
     
 # Datasets
 ### The dataset used here is obviously not uploaded again as it is drawn from KAGGLE. So here's the link. https://www.kaggle.com/code/dmilla/introduction-to-decision-trees-titanic-dataset/input (great, dataset). The dataset did not need any cleaning (I suppose, might have just called one function `dropna` called that's it).
