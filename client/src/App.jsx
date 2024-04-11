@@ -10,12 +10,12 @@ function App() {
 
   return (
     <>
-      <header className='flex'>
-        <h1 className='grow'>Titanic Survivors</h1>
+      <header className='flex px-12 lg:py-6 sm:py-4'>
+        <h1 className='grow lg:text-5xl sm:text-3xl'>Titanic Survivors</h1>
         <nav>
-          <ul className='flex'>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About</a></li>
+          <ul className='flex gap-6'>
+            <li><a href="/" className='lg:text-3xl md:text-lg'>Home</a></li>
+            <li><a href="/about" className='lg:text-3xl md:text-lg'>About</a></li>
           </ul>
         </nav>
       </header>

@@ -1,11 +1,11 @@
 import cruise from "../assets/cruise.gif"
-import DynamicForm from "./DynamicForm"
+import Form from "./Form"
 
 export default function Home() {
     return (
-    <div className="flex">
-        <img src={cruise}/>
-        <DynamicForm />
+    <div className="grid grid-cols-2 grow justify-items-center items-center">
+        <img className="aspect-auto w-3/4" src={cruise}/>
+        <Form />
     </div>
     )
 };
