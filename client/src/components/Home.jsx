@@ -11,7 +11,6 @@ export default function Home() {
     const handleInput = e => {
         const {name, value} = e.target;
         setFormData({...formData, [name]: value});
-        console.log(formData)
     }
 
     const handleReset = e => {

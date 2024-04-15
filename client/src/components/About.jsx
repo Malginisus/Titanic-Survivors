@@ -9,7 +9,11 @@ export default function About() {
             <p className="text-center my-8">
                 Author: <a className="text-blue-700" href="https://github.com/abhishekppattanayak">Abhishek Pattanayak</a>
             </p>
-            <p className="text-center my-8 w-full">Copyright &copy; 2024 abhishek pattanayak</p>
+            <h1 className="text-4xl font-bold text-center">Attributions</h1>
+            <ol className="text-center my-4">
+                <li><a href="https://www.flaticon.com/free-animated-icons/ship" title="ship animated icons">Ship animated icons created by Freepik - Flaticon</a></li>
+            </ol>
+            <p className="text-center">Copyright &copy; 2024 abhishek pattanayak</p>
         </div>
     )
 };

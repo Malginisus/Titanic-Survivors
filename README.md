@@ -12,3 +12,8 @@ To setup the project, follow these steps:
 5. In the directory `../titanic-survivors/api`, run `python3 root.py`
 6. In the directory `../titanic-survivors/client`, run `npm run dev` to start the development server
 7. In the browser, go to `http://localhost:5173` to locate the running project
+
+## Attributions
+
+I am very grateful for following sources for providing free graphics,
+1. <a href="https://www.flaticon.com/free-animated-icons/ship" title="ship animated icons">Ship animated icons created by Freepik - Flaticon</a>
