@@ -9,6 +9,6 @@ To setup the project, follow these steps:
 2. Navigate to `..titanic-survivors/client` directory and run `npm install`
 3. Navigate to `..titanic-survivors/api` directory and run `pip install -r requirements.txt`
 4. Open another terminal to start `Flask` server
-5. In the directory `../titanic-survivors/api`, run `python root.py`
-6. In the directory `../titanic-survivors/client`, run `npm run dev`
-7. In the browser, go to `http://localhost:3000` to locate the running project
+5. In the directory `../titanic-survivors/api`, run `python3 root.py`
+6. In the directory `../titanic-survivors/client`, run `npm run dev` to start the development server
+7. In the browser, go to `http://localhost:5173` to locate the running project

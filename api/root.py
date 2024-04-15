@@ -1,10 +1,12 @@
 from flask import Flask, jsonify, request
 import pickle
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 model = pickle.load(open('./model.pkl', 'rb'))
 
-@app.route('/', methods=['GET'])
+@app.route('/', methods=['POST'])
 def predict():
     try:
         data = request.json

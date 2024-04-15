@@ -5,8 +5,6 @@ import About from './components/About'
 import Error404 from './components/Error404'
 
 function App() {
-  
-  
 
   return (
     <>
@@ -14,8 +12,8 @@ function App() {
         <h1 className='grow lg:text-5xl sm:text-3xl'>Titanic Survivors</h1>
         <nav>
           <ul className='flex gap-6'>
-            <li><a href="/" className='lg:text-3xl md:text-lg'>Home</a></li>
-            <li><a href="/about" className='lg:text-3xl md:text-lg'>About</a></li>
+            <li><a href="/" className='px-4 focus:rounded-full lg:text-3xl md:text-lg'>Home</a></li>
+            <li><a href="/about" className='px-4 focus:rounded-full lg:text-3xl md:text-lg'>About</a></li>
           </ul>
         </nav>
       </header>
