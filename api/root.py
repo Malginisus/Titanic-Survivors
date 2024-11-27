@@ -2,6 +2,7 @@ from flask import Flask, jsonify, request
 import pickle
 from flask_cors import CORS
 
+PORT = 5000
 app = Flask(__name__)
 CORS(app)
 model = pickle.load(open('./model.pkl', 'rb'))
@@ -24,4 +25,4 @@ def predict():
         return jsonify({"Error": str(e)}), 500
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=PORT, debug=True)
